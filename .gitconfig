@@ -1,0 +1,13 @@
+[alias]
+	lol = log --graph --decorate --pretty=oneline --abbrev-commit
+	lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+	acm = !git add . && git commit -m
+	aca = !git add . && git commit --amend
+	acap = !git add . && git commit --amend --no-edit && git push --force-with-lease
+[pull]
+	rebase = true
+[fetch]
+	prune = true
+[push]
+	autoSetupRemote = true
+	default = current
