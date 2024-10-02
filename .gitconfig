@@ -13,3 +13,5 @@
 	default = current
 [branch]
         autoSetupMerge = always
+[credential]
+        helper = store
