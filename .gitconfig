@@ -8,7 +8,7 @@
 	rebase = true
 [fetch]
 	prune = true
-	fecth = all
+	all = true
 [push]
 	autoSetupRemote = true
 	default = current
